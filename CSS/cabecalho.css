@@ -1,0 +1,30 @@
+.cabecalho {
+    background-color: var(--background);
+    color: var(--branco);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid var(--borda-cabecalho);
+}
+
+.logo-cabecalho {
+    margin-bottom: 1rem;
+    width: 30%;
+    max-width: 200px;
+}
+
+.nav-cabecalho {
+    text-align: center;
+}
+
+.link-cabecalho {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}

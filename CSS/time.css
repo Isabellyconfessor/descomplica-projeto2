@@ -1,0 +1,40 @@
+.time {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(to bottom, white, rgb(240, 163, 191),white) ;
+    transition: color 1s;
+}
+
+.titulo-time {
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imagens-time {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    vertical-align: baseline;
+    align-items: center;
+}
+
+.img-time {
+    width: 35%;
+    text-align: center;
+}
+
+.img {
+    width: 40%;
+    border-radius: 100%;
+    max-width: 100px;
+}
+
+.texto-img-time {
+    font-size: 0.8rem;
+    text-align: center;
+}

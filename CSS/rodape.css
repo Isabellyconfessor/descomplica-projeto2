@@ -1,0 +1,24 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--background);
+    color: var(--branco);
+}
+
+.titulo-rodape {
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.endereco {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
